@@ -5,7 +5,7 @@ set -eux
 : "${INSTALL:=0}"
 : "${DESTDIR:=/Library/Application Support}"
 : "${QTDIR:=/usr/local/opt/qt}"
-: "${OBS_BIN_DIR:=/Applications/OBS.app/Contents/MacOS}"
+: "${OBS_BIN_DIR:=/Applications/OBS.app/Contents/Frameworks}"
 : "${OBS_SRC_DIR:=../obs-studio-25.0.8}"
 
 lib_path="dist/$DESTDIR/obs-studio/plugins/obs-multi-rtmp/bin/obs-multi-rtmp.so"
